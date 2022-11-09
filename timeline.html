@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+<meta name="viewport" content="width=device-width"><title>Timeline</title>
+<link rel="stylesheet" type="text/css" href="resource://content-accessible/viewsource.css">
+</head>
+<body id="viewsource" class="highlight" style="-moz-tab-size: 4" contextmenu="actions">
+<pre id="line1"><span></span><span class="doctype">&lt;!DOCTYPE html&gt;</span><span>
+<span id="line2"></span></span><span>&lt;<span class="start-tag">html</span> <span class="attribute-name">lang</span>="<a class="attribute-value">en</a>"&gt;</span><span>
+<span id="line3"></span></span><span>&lt;<span class="start-tag">head</span>&gt;</span><span>
+<span id="line4"></span></span><span>&lt;<span class="start-tag">title</span>&gt;</span><span>TimelineJS Embed</span><span>&lt;/<span class="end-tag">title</span>&gt;</span><span>
+<span id="line5"></span></span><span>&lt;<span class="start-tag">meta</span> <span class="attribute-name">charset</span>="<a class="attribute-value">utf-8</a>"&gt;</span><span>
+<span id="line6"></span></span><span>&lt;<span class="start-tag">meta</span> <span class="attribute-name">name</span>="<a class="attribute-value">description</a>" <span class="attribute-name">content</span>="<a class="attribute-value">TimelineJS Embed</a>"&gt;</span><span>
+<span id="line7"></span></span><span>&lt;<span class="start-tag">meta</span> <span class="attribute-name">name</span>="<a class="attribute-value">apple-mobile-web-app-capable</a>" <span class="attribute-name">content</span>="<a class="attribute-value">yes</a>"&gt;</span><span>
+<span id="line8"></span></span><span>&lt;<span class="start-tag">meta</span> <span class="attribute-name">name</span>="<a class="attribute-value">apple-touch-fullscreen</a>" <span class="attribute-name">content</span>="<a class="attribute-value">yes</a>"&gt;</span><span>
+<span id="line9"></span></span><span>&lt;<span class="start-tag">meta</span> <span class="attribute-name">name</span>="<a class="attribute-value">viewport</a>" <span class="attribute-name">content</span>="<a class="attribute-value">width=device-width, initial-scale=1.0, maximum-scale=1.0</a>"&gt;</span><span>
+<span id="line10"></span></span><span>&lt;<span class="start-tag">link</span> <span class="attribute-name">rel</span>="<a class="attribute-value">icon</a>" <span class="attribute-name">type</span>="<a class="attribute-value">image/png</a>" <span class="attribute-name">href</span>="<a class="attribute-value" href="view-source:https://cdn.knightlab.com/libs/purpleline/latest/img/favicon.png">https://cdn.knightlab.com/libs/purpleline/latest/img/favicon.png</a>"&gt;</span><span>
+<span id="line11"></span></span><span>&lt;<span class="start-tag">link</span> <span class="attribute-name">rel</span>="<a class="attribute-value">stylesheet</a>" <span class="attribute-name">href</span>="<a class="attribute-value" href="view-source:https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css</a>"&gt;</span><span>
+<span id="line12"></span></span><span>&lt;<span class="start-tag">base</span> <span class="attribute-name">target</span>="<a class="attribute-value">_blank</a>"&gt;</span><span>
+<span id="line13"></span>
+<span id="line14"></span></span><span class="comment">&lt;!-- Style--&gt;</span><span>
+<span id="line15"></span></span><span>&lt;<span class="start-tag">style</span>&gt;</span><span>
+<span id="line16"></span>html, body {
+<span id="line17"></span>    width: 100%;
+<span id="line18"></span>    height:100%;
+<span id="line19"></span>    padding: 0px;
+<span id="line20"></span>    margin: 0px;
+<span id="line21"></span>}
+<span id="line22"></span>#timeline-embed {
+<span id="line23"></span>    height: 100%;
+<span id="line24"></span>}
+<span id="line25"></span></span><span>&lt;/<span class="end-tag">style</span>&gt;</span><span>
+<span id="line26"></span></span><span class="comment">&lt;!-- HTML5 shim, for IE6-8 support of HTML elements--&gt;</span><span></span><span class="comment">&lt;!--[if lt IE 9]&gt;
+<span id="line27"></span>&lt;script src="//html5shim.googlecode.com/svn/trunk/html5.js"&gt;&lt;/script&gt;&lt;![endif]--&gt;</span><span>
+<span id="line28"></span></span><span>&lt;/<span class="end-tag">head</span>&gt;</span><span>
+<span id="line29"></span></span><span>&lt;/<span class="end-tag">html</span>&gt;</span><span>
+<span id="line30"></span></span><span class="error error" title="Balise de d�but isol�e �&nbsp;body&nbsp;�.
+Une balise ouvrante �&nbsp;body&nbsp;� a �t� rencontr�e mais un �l�ment du m�me type �tait d�j� ouvert.">&lt;<span class="start-tag">body</span>&gt;</span><span>
+<span id="line31"></span>  </span><span class="comment">&lt;!-- BEGIN Timeline Embed --&gt;</span><span>
+<span id="line32"></span>  </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">id</span>="<a class="attribute-value">timeline-embed</a>"&gt;</span><span></span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+<span id="line33"></span>  </span><span class="comment">&lt;!-- Override --&gt;</span><span>
+<span id="line34"></span>  </span><span>&lt;<span class="start-tag">script</span> <span class="attribute-name">type</span>="<a class="attribute-value">text/javascript</a>"&gt;</span><span>
+<span id="line35"></span>    var lang = window.location.href.match(/&amp;lang=([a-zA-Z]*)&amp;?/);
+<span id="line36"></span>
+<span id="line37"></span>    if (lang) {
+<span id="line38"></span>      document.getElementsByTagName('html')[0].setAttribute('lang', lang[1]);
+<span id="line39"></span>    }
+<span id="line40"></span>    var trim_point = window.location.href.indexOf('embed/index.html');
+<span id="line41"></span>    if (trim_point &gt; 0) {
+<span id="line42"></span>      var embed_path = window.location.href.substring(0,trim_point); // supports https access via https://s3.amazonaws.com/cdn.knightlab.com/libs/timeline/latest/embed/index.html
+<span id="line43"></span>    } else {
+<span id="line44"></span>      var embed_path = "https://cdn.knightlab.com/libs/timeline3/latest/";
+<span id="line45"></span>    }
+<span id="line46"></span>    var oembed_link = document.createElement('link');
+<span id="line47"></span>    oembed_link['rel'] = 'alternate';
+<span id="line48"></span>    oembed_link['type'] = 'application/json+oembed';
+<span id="line49"></span>    oembed_link['href'] = 'https://oembed.knightlab.com/timeline/?url=' + encodeURIComponent(window.location.href);
+<span id="line50"></span>    document.head.appendChild(oembed_link);
+<span id="line51"></span>  </span><span>&lt;/<span class="end-tag">script</span>&gt;</span><span>
+<span id="line52"></span>  </span><span>&lt;<span class="start-tag">script</span> <span class="attribute-name">type</span>="<a class="attribute-value">text/javascript</a>" <span class="attribute-name">src</span>="<a class="attribute-value" href="timeline/timeline-embed-cdn.js">../js/timeline-embed-cdn.js</a>"&gt;</span><span></span><span>&lt;/<span class="end-tag">script</span>&gt;</span><span>
+<span id="line53"></span>  </span><span class="comment">&lt;!-- END Timeline Embed--&gt;</span><span>
+<span id="line54"></span></span><span>&lt;/<span class="end-tag">body</span>&gt;</span><span>
+<span id="line55"></span></span><span>&lt;/<span class="end-tag">html</span>&gt;</span><span>
+<span id="line56"></span></span></pre><menu type="context" id="actions"><menuitem id="goToLine" label="Aller � la ligne�" accesskey="l"></menuitem><menuitem id="wrapLongLines" label="Retour � la ligne automatique" type="checkbox"></menuitem><menuitem id="highlightSyntax" label="Coloration syntaxique" type="checkbox" checked="true"></menuitem></menu></body></html>
