@@ -19,7 +19,6 @@
     <script src="js/respond.min.js"></script>
   <![endif]-->
   
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
   <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
 <!--   <link rel="icon" href="http://www.vincseize.net/images/favicon.png" type="image/x-icon"> 
   <link rel="shortcut icon" href="http://www.vincseize.net/images/favicon.png" type="image/x-icon"> -->
@@ -1260,7 +1259,7 @@ google plus https://plus.google.com/114266724829508122162
             <p>&copy; Charles POTTIER - Vincseize | ~1996 - <?php echo date("Y");?></p>
           </div>
           <div class="col-sm-6">
-            <p class="pull-right">Last Update : Juil. 2022</p>
+            <p class="pull-right">Last Update : Nov. 2022</p>
           </div>
         </div>
       </div>
@@ -1269,7 +1268,6 @@ google plus https://plus.google.com/114266724829508122162
 
   <script type="text/javascript" src="js/jquery.js"></script>
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
   <script type="text/javascript" src="js/jquery.inview.min.js"></script>
   <script type="text/javascript" src="js/wow.min.js"></script>
   <script type="text/javascript" src="js/mousescroll.js"></script>
